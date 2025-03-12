@@ -1,0 +1,30 @@
+{%- extends "!layout.html" %}
+{% block extrahead %}
+  <link rel="shortcut icon" href="{{ pathto('_static/favicon.ico', 1) }}"/>
+  <!-- {{ super() }}
+  {% if display_github %}
+    {% if github_version %}
+      {% set display_github_url = 'https://github.com/' + github_user + '/' + github_repo + '/blob/' + github_version + root_path_parts + pagename + source_suffix %}
+      <a href="{{ display_github_url }}">View page source</a>
+    {% endif %}
+  {% endif %} -->
+{% endblock %}
+
+{% block sidebartitle %}
+  {{ super() }}
+    <a
+      href="{{ wiki_cn_url }}"
+      class="sidebar-brand"
+      style="color: #fff; margin-bottom: 0; margin-top: 0.7em; padding: 0; font-weight: normal; font-size: 88%"
+    >
+      中
+    </a>
+    <span style="display: inline-block; margin: 0px 6px; color: #fff;">|</span>
+    <a
+      href="{{ wiki_en_url }}"
+      class="sidebar-brand"
+      style="color: #fff; margin-bottom: 0; margin-top: 0.7em; padding: 0; font-weight: normal; font-size: 88%"
+    >
+      EN
+    </a>
+{% endblock %}
