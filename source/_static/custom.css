@@ -30,6 +30,11 @@
   }
 }
 
+/* 隐藏底部广告 */
+#readthedocs-ea-text-footer {
+  display: none;
+}
+
 /* 面包屑样式调整 */
 .wy-breadcrumbs-translate {
   margin-right: 24px;
@@ -56,4 +61,51 @@
     fill: #fff !important;
     color: #e72420 !important;
   }
+}
+
+.wy-nav-content {
+    width: 100%;
+    max-width: 1580px;
+    margin: 0;
+}
+
+#lightbox {
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity ease 0.4s;
+    user-select: none;
+}
+#lightbox.show {
+    visibility: visible;
+    opacity: 1;
+}
+#lightbox img {
+    max-width: 90vw;
+    max-height: 90vh;
+    object-fit: contain;
+    transition: transform 0.1s ease-out;
+    cursor: grab;
+    transform-origin: center center;
+}
+#lightbox img:active {
+    cursor: grabbing;
+}
+
+.centered-table-text {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.video-container iframe {
+  border: none;
 }

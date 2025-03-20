@@ -1,1 +1,0 @@
-# Grasping with a Robotic Arm (Dual Arms) or Dexterous Hand

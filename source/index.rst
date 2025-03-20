@@ -8,54 +8,34 @@ Welcome to RoboSense !
     :numbered:
 
     product/sensor.md
-    product/development_board.md
+    product/hardware.md
 
 .. toctree::
-    :caption: Quick Start
+    :maxdepth: 2
+    :caption: AC  Studio
     :numbered:
 
-    quick_start/active_camera.md
-
-.. toctree::
-    :maxdepth: 0
-    :caption: RoboSense SDK
-    :numbered:
-
-    sdk/driver.md
-    sdk/time_sync.md
-    sdk/tools.md
-    sdk/localization.md
-    sdk/slam.md
-    sdk/target_test.md
-    sdk/semantic_segmentation.md
-    sdk/visual_fusion.md
+    ac_studio/ac_studio.md
+    ac_studio/ac_viewer.md
+    ac_studio/driver.md
+    ac_studio/tools.md
+    ac_studio/algorithms.md
 
 .. toctree::
     :maxdepth: 0
     :caption: RoboSense Dataset
     :numbered:
 
-    data_set/target.md
-    data_set/identify.md
+    .. data_set/target.md
+    .. data_set/identify.md
 
 .. toctree::
     :maxdepth: 0
     :caption: Application Cases
     :numbered:
 
-    cases/case1.md
-    cases/case2.md
-    cases/case3.md
-    cases/case4.md
-    cases/case5.md
-    cases/case6.md
-    cases/case7.md
-    cases/case8.md
-    cases/case9.md
-    cases/case10.md
-    cases/case11.md
-    cases/case12.md
-    cases/case13.md
+    cases/humanoid_robot.md
+    cases/house_clean.md
 
 .. toctree::
     :maxdepth: 0

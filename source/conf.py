@@ -64,6 +64,8 @@ html_css_files = [
     'custom.css',
 ]
 
+html_js_files = ['custom.js']
+
 master_doc = 'index'
 
 source_suffix = {
