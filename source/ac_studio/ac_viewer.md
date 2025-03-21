@@ -59,20 +59,20 @@ Through AC Viewer, users can easily view, record, and store sensor data for late
 **Software Usage:**
 - Check if the device is properly connected and if the data stream is normal
 <div style="margin-bottom: 24px; position:relative; width:100%; padding-top: 55.33%;" class="video-container">
-    <iframe src="https://cdn.robosense.cn/AC_wiki/acview_check.mp4" allowfullscreen style="position:absolute; top:0; left:0; width:100%; height:100%;"></iframe>
+    <iframe src="https://cdn.robosense.cn/AC_wiki/acview_check_en.mp4" allowfullscreen style="position:absolute; top:0; left:0; width:100%; height:100%;"></iframe>
 </div>
 
 - Recording
 <div style="margin-bottom: 24px; position:relative; width:100%; padding-top: 55.33%;" class="video-container">
-    <iframe src="https://cdn.robosense.cn/AC_wiki/acview_collect.mp4" allowfullscreen style="position:absolute; top:0; left:0; width:100%; height:100%;"></iframe>
+    <iframe src="https://cdn.robosense.cn/AC_wiki/acview_collect_en.mp4" allowfullscreen style="position:absolute; top:0; left:0; width:100%; height:100%;"></iframe>
 </div>
 
 - Playback
 <div style="margin-bottom: 24px; position:relative; width:100%; padding-top: 55.33%;" class="video-container">
-    <iframe src="https://cdn.robosense.cn/AC_wiki/acview_replay.mp4" allowfullscreen style="position:absolute; top:0; left:0; width:100%; height:100%;"></iframe>
+    <iframe src="https://cdn.robosense.cn/AC_wiki/acview_replay_en.mp4" allowfullscreen style="position:absolute; top:0; left:0; width:100%; height:100%;"></iframe>
 </div>
 
 - Offline SLAM
 <div style="margin-bottom: 24px; position:relative; width:100%; padding-top: 55.33%;" class="video-container">
-    <iframe src="https://cdn.robosense.cn/AC_wiki/acview_slam.mp4" allowfullscreen style="position:absolute; top:0; left:0; width:100%; height:100%;"></iframe>
+    <iframe src="https://cdn.robosense.cn/AC_wiki/acview_slam_en.mp4" allowfullscreen style="position:absolute; top:0; left:0; width:100%; height:100%;"></iframe>
 </div>
