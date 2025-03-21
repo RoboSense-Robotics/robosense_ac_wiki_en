@@ -1,5 +1,7 @@
 # Semantic Segmentation
-By utilizing the Mask2Former model and the PP-LiteSeg model, semantic segmentation is performed on the image to generate segmentation masks for the targets. The size of the model can have varying effects on the results, particularly in terms of detail. Below demonstrates the effects exhibited by models of different sizes.
+By utilizing the Mask2Former model and the PP-LiteSeg model, semantic segmentation is performed on the image to generate segmentation masks for the targets.  
+The size of the model can have varying effects on the results, particularly in terms of detail.  
+Below demonstrates the effects exhibited by models of different sizes.
 
 ## mask2former
 

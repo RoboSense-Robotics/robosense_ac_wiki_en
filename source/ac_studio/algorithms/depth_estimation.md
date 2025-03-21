@@ -1,5 +1,6 @@
 # Dense Depth Estimation
-By inputting a single frame of image and point cloud, the PromptDA algorithm is utilized to generate a dense depth map based on the image resolution. Below demonstrates the effects exhibited by models of different sizes.
+By inputting a single frame of image and point cloud, the PromptDA algorithm is utilized to generate a dense depth map based on the image resolution.  
+Below demonstrates the effects exhibited by models of different sizes.
 
 ## PromptDA-vitlarge
 The computational platforms currently supported by this network are listed in the table below:
