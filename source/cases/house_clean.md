@@ -1,4 +1,4 @@
-# 4.3 Home Cleaning
+# Home Cleaning
 
 ## Lawn Mower Localization and Navigation Example
 The intelligent lawn mower equipped with the Active Camera can accurately identify complex terrains, detect lawn boundaries at the centimeter level, and sensitively avoid obstacles such as children's toys and garden decorations, maintaining stable operation even in rainy or foggy weather. By utilizing dynamic path algorithms to optimize the working route in real-time, it eliminates repeated trampling and missed spots, ensuring every inch of the lawn is evenly trimmed.
