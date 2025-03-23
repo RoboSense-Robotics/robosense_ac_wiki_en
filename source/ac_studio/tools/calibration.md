@@ -20,7 +20,7 @@ The following video provides a real-time demonstration of the calibration field'
 </table>   
 
 <div style="margin-bottom: 24px; position:relative; width:100%; padding-top: 56.25%;" class="video-container">
-    <iframe src="https://cdn.robosense.cn/AC_wiki/camera_intrinsics_calib.mp4" allowfullscreen style="position:absolute; top:0; left:0; width:100%; height:100%;"></iframe>
+    <iframe src="https://cdn.robosense.cn/AC_wiki/camera_intrinsics_calib_en.mp4" allowfullscreen style="position:absolute; top:0; left:0; width:100%; height:100%;"></iframe>
 </div>
 
 Video Data: [AC1 Camera Intrinsics Calibration data](https://cdn.robosense.cn/AC_wiki/camera_intrinsics_calib.zip)   
