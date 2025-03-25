@@ -52,8 +52,8 @@ Through AC Viewer, users can easily view, record, and store sensor data for late
 
 
 **Software preparation:**  
-[AC Viewer lastest version (64 bit) - Ubuntu 20.04](https://cdn.robosense.cn/AC_wiki/AcViewer_Linux_x86_64_release_lastest.zip)  
-[AC Viewer lastest version (64 bit) - windows 10](https://cdn.robosense.cn/AC_wiki/AcViewer_Win_x86_64_release_lastest.zip)
+[AC Viewer version 1.0.6 (64 bit) - Ubuntu 20.04](https://cdn.robosense.cn/AC_wiki/AcViewer_Linux_x86_64_release_1.0.6.zip)  
+[AC Viewer version 1.0.6 (64 bit) - windows 10](https://cdn.robosense.cn/AC_wiki/AcViewer_Win_x86_64_release_1.0.6.zip)
 
 
 **Software Usage:**
