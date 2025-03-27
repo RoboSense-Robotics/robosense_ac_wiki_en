@@ -1,7 +1,6 @@
 # AC Viewer  
 
-AC Viewer is a software designed specifically for Active Camera, which can be used to display real-time data (including point clouds, images, etc.) from all Active Cameras connected to the computer. 
-
+AC Viewer is a software designed specifically for Active Camera, which can be used to display real-time data (including point clouds, images, etc.) from all Active Cameras connected to the computer.  
 Through AC Viewer, users can easily view, record, and store sensor data for later use.
 
 **Hardware preparation:**
