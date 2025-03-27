@@ -119,8 +119,6 @@ Its specifications are detailed in the table below:
             <td>DC</td>
         </tr>
         <tr class="row-odd centered-table-text">
-            <td>Time Accuracy</td>
-            <td> <1ms </td>
             <td>Dimensions</td>
             <td>95mm*42.6mm*80mm</td>
         </tr>
