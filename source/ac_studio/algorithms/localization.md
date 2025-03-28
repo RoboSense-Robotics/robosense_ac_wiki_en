@@ -20,7 +20,7 @@ The computational platforms currently supported by this algorithm are listed in 
             <td>●</td>
             <td>●</td>
             <td>○</td>
-            <td>○</td>
+            <td>●</td>
         </tr>
         <tr class="row-even centered-table-text">
             <td>Sensor</td>
