@@ -126,3 +126,5 @@ Its specifications are detailed in the table below:
         </tr>
     </tbody>
 </table> 
+
+[Click to learn more details](https://www.robosense.ai/en/IncrementalComponents/AC1)
