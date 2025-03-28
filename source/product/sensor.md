@@ -127,4 +127,4 @@ Its specifications are detailed in the table below:
     </tbody>
 </table> 
 
-[Click to learn more details](https://www.robosense.ai/en/rslidar/AC1)
+<a href="https://www.robosense.ai/en/rslidar/AC1" class="rounded-button" target="_blank">Learn More</a>
