@@ -8,8 +8,6 @@ Significantly lowering development barriers and enhancing efficiency, the AI-Rea
 
 This empowers developers to focus on high-value tasks and functional optimization, assisting them in achieving versatile, efficient, and elegant solutions for creating robots with enhanced behavioral intelligence and expanded functional capabilities.
 
-<a href="https://www.robosense.ai/en/rslidar/AC1" class="rounded-button" target="_blank">Learn More</a>
-
 ### Specifications
 
 <table class="docutils align-default" style="width: 100%; table-layout: fixed;">
@@ -145,3 +143,5 @@ The relationships between these coordinate systems are illustrated in the figure
 - The origin of the LiDAR coordinate system $O_L$ in the AC coordinate system $O−XYZ$ is at $(0,0,0)$ (unit: mm).
 - The origin of the camera coordinate system $O_C$ in the AC coordinate system $O−XYZ$ is at $(4.3,0,−26.9)$ (unit: mm).
 - The origin of the IMU coordinate system $O_I$ in the AC coordinate system $O−XYZ$ is at $(−10.6,−9.9,15.5)$ (unit: mm).
+
+<a href="https://www.robosense.ai/en/rslidar/AC1" class="rounded-button" target="_blank">Learn More</a>
