@@ -8,7 +8,9 @@ Significantly lowering development barriers and enhancing efficiency, the AI-Rea
 
 This empowers developers to focus on high-value tasks and functional optimization, assisting them in achieving versatile, efficient, and elegant solutions for creating robots with enhanced behavioral intelligence and expanded functional capabilities.
 
-Its specifications are detailed in the table below:
+<a href="https://www.robosense.ai/en/rslidar/AC1" class="rounded-button" target="_blank">Learn More</a>
+
+### Specifications
 
 <table class="docutils align-default" style="width: 100%; table-layout: fixed;">
     <colgroup>
@@ -127,4 +129,19 @@ Its specifications are detailed in the table below:
     </tbody>
 </table> 
 
-<a href="https://www.robosense.ai/en/rslidar/AC1" class="rounded-button" target="_blank">Learn More</a>
+### Coordinate Systems
+
+In practical applications, data from various sensors in the Active Camera is required.  
+The coordinate systems of these sensors are defined as follows:
+
+- The coordinate system of the LiDAR sensor is denoted as $O_L−X_LY_LZ_L$ .
+- The coordinate system of the camera sensor is denoted as $O_C−X_CY_CZ_C$ .
+- The coordinate system of the IMU sensor is denoted as $O_I−X_IY_IZ_I$ .
+- The AC coordinate system $O−XYZ$ is defined as identical to the LiDAR coordinate system, $O_L−X_LY_LZ_L$ .
+
+The relationships between these coordinate systems are illustrated in the figure below:
+![图片alt](../image/coordinate_system.jpg)  
+
+- The origin of the LiDAR coordinate system $O_L$ in the AC coordinate system $O−XYZ$ is at $(0,0,0)$ (unit: mm).
+- The origin of the camera coordinate system $O_C$ in the AC coordinate system $O−XYZ$ is at $(4.3,0,−26.9)$ (unit: mm).
+- The origin of the IMU coordinate system $O_I$ in the AC coordinate system $O−XYZ$ is at $(−10.6,−9.9,15.5)$ (unit: mm).
