@@ -34,6 +34,20 @@ During calibration, please ensure that the target is within the FOV of both the 
 Video Data: [AC1 Camera to LiDAR Calibration data](https://cdn.robosense.cn/AC_wiki/camera_lidar_calib.zip)  
 Source Code: [AC1 Camera to LiDAR Calibration code](https://github.com/RoboSense-Robotics/robosense_calibration_extrinsic)
 
+## Camera to IMU Calibration
+The Active Camera has been calibrated from camera to IMU before leaving the factory.  
+The following method is provided for developers to recalibrate when necessary.  
+This module provides a camera-IMU calibration tool, reusing the calibration target from the camera intrinsic calibration to estimate the pose of the target for the camera from different angles.  
+Combining IMU motion data and applying hand-eye calibration methods, it calculates the camera-IMU extrinsic parameters required by other modules.  
+During calibration, please ensure that the target is within the FOV of the image, and try to keep the AC1 stationary to avoid calibration errors due to sensor jitter.
+
+<div style="margin-bottom: 24px; position:relative; width:100%; padding-top: 56.25%;" class="video-container">
+    <iframe src="https://cdn.robosense.cn/AC_wiki/camera2imu_calib_en.mp4" allowfullscreen style="position:absolute; top:0; left:0; width:100%; height:100%;"></iframe>
+</div>
+
+Video Data: [AC1 Camera to IMU Calibration data](https://cdn.robosense.cn/AC_wiki/camera_imu_calib.zip)  
+Source Code: [AC1 Camera to IMU Calibration code](https://github.com/RoboSense-Robotics/robosense_ac_calibration)
+
 ## AC1 Sensor to Mobile Wheeled Platform Extrinsic Calibration
 This module provides extrinsic calibration (angle calibration) for the AC1 to a mobile wheeled platform.  
 This module requires the prior recording of two sets of data: one set of data for driving at a constant speed along a straight line, and one set of data for rotating at a constant speed around a fixed axis.  
@@ -43,3 +57,16 @@ The translation part needs to be measured by the developer and then filled into 
 
 Video Data: [AC1 to Wheel Platform Calibration data](https://cdn.robosense.cn/AC_wiki/calibration_extrinsic.zip)  
 Source Code: [AC1 to Wheel Platform Calibration code](https://github.com/RoboSense-Robotics/robosense_calibration_extrinsic)
+
+## AC1 Sensor to Robotic Arm Extrinsic Calibration
+This module provides extrinsic calibration between AC1 and the robotic arm (with AC1 fixed at the end-effector).  
+By combining the end-effector pose of the robotic arm with point cloud registration results, the hand-eye calibration method is employed to perform AC1-robotic arm extrinsic calibration.  
+During calibration, the robotic arm needs to be controlled to move along different directions.  
+Upon completion, the program outputs the extrinsic parameters from AC1 to the robotic arm's end-effector.
+
+<div style="margin-bottom: 24px; position:relative; width:100%; padding-top: 56.25%;" class="video-container">
+    <iframe src="https://cdn.robosense.cn/AC_wiki/sensor_to_mechanical_arm_en.mp4" allowfullscreen style="position:absolute; top:0; left:0; width:100%; height:100%;"></iframe>
+</div>
+
+Video Data: [AC1 to Robotic Arm Calibration data](https://cdn.robosense.cn/AC_wiki/sensor_to_arm_calib.zip)  
+Source Code: [AC1 to Robotic Arm Calibration code](https://github.com/RoboSense-Robotics/robosense_calibration_extrinsic)
