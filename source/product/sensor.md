@@ -74,7 +74,7 @@ This empowers developers to focus on high-value tasks and functional optimizatio
             <td>CIS Output Format</td>
             <td>NV12, RGB24</td>
             <td>Vertical FOV</td>
-            <td>79°</td>
+            <td>78°</td>
         </tr>
         <tr class="row-odd centered-table-text">
             <td>Frame Rate</td>
@@ -89,13 +89,13 @@ This empowers developers to focus on high-value tasks and functional optimizatio
             <td>Degrees of Freedom</td>
             <td>6-Axis Data Output</td>
             <td>Gyroscope</td>
-            <td>±500dps</td>
+            <td>±2000dps</td>
         </tr>
         <tr class="row-even centered-table-text">
             <td>Accelerometer</td>
-            <td>±4g</td>
+            <td>±16g</td>
             <td>Data Frequency</td>
-            <td>500Hz (Adjustable)</td>
+            <td>200Hz (Adjustable)</td>
         </tr>
         <tr class="row-odd">
             <th class="head" colspan=4>Overall Unit Specifications</th>
@@ -104,13 +104,19 @@ This empowers developers to focus on high-value tasks and functional optimizatio
             <td>Form Factor</td>
             <td>Standard Probe Module</td>
             <td>Power Consumption</td>
-            <td>14W (Typical)</td>
+            <td>12.6W (Typical)</td>
         </tr>
         <tr class="row-odd centered-table-text">
             <td>Operating Temperature</td>
-            <td>-20°C~ +60°C</td>
+            <td>-20°C ~ +60°C</td>
+            <td>Storage Temperature</td>
+            <td>-20°C ~ +70°C</td>
+        </tr>
+        <tr class="row-odd centered-table-text">
             <td>Protection Rating</td>
             <td>IP54</td>
+            <td>Weight</td>
+            <td>400g ± 10%</td>
         </tr>
         <tr class="row-even centered-table-text">
             <td>Data Interface</td>
