@@ -8,10 +8,10 @@ These system images include the dependencies required for compiling and running 
 <table class="docutils align-default">
     <tr class="centered-table-text">
         <td style="font-weight: bold;" colspan="2">Computing Platform</td>
-        <td style="font-weight: bold;">General x86 Architecture Computers</td>
+        <td style="font-weight: bold;">General x86<br> Architecture Computers</td>
         <td style="font-weight: bold;">Radxa ROCK5B+</td>
         <td style="font-weight: bold;">OrangePi 5 Ultra</td>
-        <td style="font-weight: bold;">NVIDIA Jetson Orin Nano Super</td>
+        <td style="font-weight: bold;">NVIDIA Jetson<br> Orin Nano Super</td>
         <td style="font-weight: bold;">D-Robotics RDK X5</td>
     </tr>
     <tr class="centered-table-text">
@@ -47,13 +47,13 @@ These system images include the dependencies required for compiling and running 
         <td>10 TOPS@INT8</td>
     </tr>
     <tr class="centered-table-text">
-        <td rowspan="12">Supported SDKs <sup>1</sup> </td>
+        <td rowspan="12">Supported <br> SDKs <sup>1</sup> </td>
     </tr>
     <tr class="centered-table-text">
         <td>Driver</td>
         <td>●</td>
         <td>●</td>
-        <td>○</td>
+        <td>●</td>
         <td>○</td>
         <td>○</td>
     </tr>
@@ -61,7 +61,7 @@ These system images include the dependencies required for compiling and running 
         <td>Data Acquisition</td>
         <td>●</td>
         <td>●</td>
-        <td>○</td>
+        <td>●</td>
         <td>○</td>
         <td>○</td>
     </tr>
@@ -69,7 +69,7 @@ These system images include the dependencies required for compiling and running 
         <td>Monitoring</td>
         <td>●</td>
         <td>●</td>
-        <td>○</td>
+        <td>●</td>
         <td>○</td>
         <td>○</td>
     </tr>
@@ -77,7 +77,7 @@ These system images include the dependencies required for compiling and running 
         <td>Calibration</td>
         <td>●</td>
         <td>●</td>
-        <td>○</td>
+        <td>●</td>
         <td>○</td>
         <td>○</td>
     </tr>
@@ -85,7 +85,7 @@ These system images include the dependencies required for compiling and running 
         <td>Point Cloud & Vision Fusion</td>
         <td>●</td>
         <td>●</td>
-        <td>○</td>
+        <td>●</td>
         <td>○</td>
         <td>○</td>
     </tr>
@@ -93,7 +93,7 @@ These system images include the dependencies required for compiling and running 
         <td>Localization</td>
         <td>●</td>
         <td>●</td>
-        <td>○</td>
+        <td>●</td>
         <td>○</td>
         <td>○</td>
     </tr>
@@ -101,7 +101,7 @@ These system images include the dependencies required for compiling and running 
         <td>SLAM</td>
         <td>●</td>
         <td>●</td>
-        <td>○</td>
+        <td>●</td>
         <td>○</td>
         <td>○</td>
     </tr>
@@ -117,7 +117,7 @@ These system images include the dependencies required for compiling and running 
         <td>Dense Depth Estimation</td>
         <td>●</td>
         <td>●</td>
-        <td>○</td>
+        <td>●</td>
         <td>○</td>
         <td>○</td>
     </tr>
@@ -125,7 +125,7 @@ These system images include the dependencies required for compiling and running 
         <td>Object Detection & Recognition</td>
         <td>●</td>
         <td>●</td>
-        <td>○</td>
+        <td>●</td>
         <td>○</td>
         <td>○</td>
     </tr>
@@ -133,24 +133,32 @@ These system images include the dependencies required for compiling and running 
         <td>Semantic Segmentation</td>
         <td>●</td>
         <td>●</td>
-        <td>○</td>
+        <td>●</td>
         <td>○</td>
         <td>○</td>
     </tr>
     <tr class="centered-table-text">
-        <td colspan="2">SDK Environment Container <sup>2</sup> </td>
+        <td colspan="2">System image/<br>SDK Environment Container <sup>2</sup> </td>
         <td>
-            <a href="https://github.com/RoboSense-Robotics/robosense_ac_ros2_sdk_infra/tree/main/tools/compilation_envirment">
-                AC X86 tool
+            <a href="https://github.com/RoboSense-Robotics/ros2_ac_sdk_infra/tree/main/tools/cross_compilation">
+                SDK Environment Container
+            </a>
+        </td>
+        <td>
+            <a href="https://github.com/RoboSense-Robotics/robosense_ac_ros2_sdk_infra/blob/main/tools/system_image/Radxa_Image_Readme.md">
+                System image
             </a>
         </td>
         <td>-</td>
-        <td>-</td>
-        <td>-</td>
+        <td>
+            <a href="https://github.com/RoboSense-Robotics/robosense_ac_ros2_sdk_infra/blob/main/tools/system_image/Orin_Nano_Image_Readme.md">
+                System image
+            </a>
+        </td>
         <td>-</td>
     </tr>
 </table>
 
 <sup>1</sup> ● (Solid Circle): Indicates support for a specific feature or functionality. <br> ○ (Hollow Circle): Indicates no support for a specific feature or functionality.
 
-<sup>2</sup> It is used to manage the Docker container for cross-platform compilation and local compilation environments of the Active Camera SDK. It includes functionalities such as container management, image management, and automated environment setup.
+<sup>2</sup> For containers and system images provided by different platforms of Active Camera SDK, SDK is convenient and quick to deploy. SDK container provides Docker container for cross-platform compilation and local compilation environment, including container management, image management and automatic environment setting. As well as the system image, the pre-installed ros2 humble version is tripartite dependent on the Active Camera SDK.
