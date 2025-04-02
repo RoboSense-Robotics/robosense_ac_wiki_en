@@ -159,6 +159,6 @@ These system images include the dependencies required for compiling and running 
     </tr>
 </table>
 
-<sup>1</sup> ● (Solid Circle): Indicates support for a specific feature or functionality. <br> ○ (Hollow Circle): Indicates no support for a specific feature or functionality.
+<sup>1</sup> ● (Solid Circle): Indicates support for a specific feature or functionality. <br> &nbsp; ○ (Hollow Circle): Indicates no support for a specific feature or functionality.
 
 <sup>2</sup> For containers and system images provided by different platforms of Active Camera SDK, SDK is convenient and quick to deploy. SDK container provides Docker container for cross-platform compilation and local compilation environment, including container management, image management and automatic environment setting. As well as the system image, the pre-installed ros2 humble version is tripartite dependent on the Active Camera SDK.
