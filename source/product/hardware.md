@@ -12,6 +12,7 @@ These system images include the dependencies required for compiling and running 
         <td style="font-weight: bold;">Radxa ROCK5B+</td>
         <td style="font-weight: bold;">OrangePi 5 Ultra</td>
         <td style="font-weight: bold;">NVIDIA Jetson<br> Orin Nano Super</td>
+        <td style="font-weight: bold;">NVIDIA Jetson AGX Orin</td>
         <td style="font-weight: bold;">D-Robotics RDK X5</td>
     </tr>
     <tr class="centered-table-text">
@@ -20,6 +21,7 @@ These system images include the dependencies required for compiling and running 
         <td>Rockchip RK3588</td>
         <td>Rockchip RK3588</td>
         <td>Jetson Orin Nano 8GB module</td>
+        <td>Jetson Orin</td>
         <td>Sunrise 5</td>
     </tr>
     <tr class="centered-table-text">
@@ -28,6 +30,7 @@ These system images include the dependencies required for compiling and running 
         <td>8-Core 64-bit Processor<br> 4 x Cortex-A76@2.4GHz<br> 4 x Cortex-A55@1.8GHz</td>
         <td>8-Core 64-bit Processor<br> 4 x Cortex-A76@2.4GHz<br> 4 x Cortex-A55@1.8GHz</td>
         <td>6 x Cortex-A78@2.4GHz</td>
+        <td>12 x Cortex-A78AE@2.2GHz</td>
         <td>8 x Cortex-A55@1.5GHz</td>
     </tr>
     <tr class="centered-table-text">
@@ -36,6 +39,7 @@ These system images include the dependencies required for compiling and running 
         <td>16 GB LPDDR5</td>
         <td>16 GB LPDDR5</td>
         <td>8 GB LPDDR5</td>
+        <td>64 GB LPDDR5</td>
         <td>8 GB LPDDR4</td>
     </tr>
     <tr class="centered-table-text">
@@ -44,6 +48,7 @@ These system images include the dependencies required for compiling and running 
         <td>6 TOPS@INT8</td>
         <td>6 TOPS@INT8</td>
         <td>67 TOPS@INT8</td>
+        <td>275 TOPS@INT8</td>
         <td>10 TOPS@INT8</td>
     </tr>
     <tr class="centered-table-text">
@@ -53,61 +58,69 @@ These system images include the dependencies required for compiling and running 
         <td>Driver</td>
         <td>●</td>
         <td>●</td>
+        <td>○</td>
         <td>●</td>
-        <td>○</td>
-        <td>○</td>
+        <td>●</td>
+        <td>●</td>
     </tr>
     <tr class="centered-table-text">
         <td>Data Acquisition</td>
         <td>●</td>
         <td>●</td>
+        <td>○</td>
         <td>●</td>
-        <td>○</td>
-        <td>○</td>
+        <td>●</td>
+        <td>●</td>
     </tr>
     <tr class="centered-table-text">
         <td>Monitoring</td>
         <td>●</td>
         <td>●</td>
+        <td>○</td>
         <td>●</td>
-        <td>○</td>
-        <td>○</td>
+        <td>●</td>
+        <td>●</td>
     </tr>
     <tr class="centered-table-text">
         <td>Calibration</td>
         <td>●</td>
         <td>●</td>
+        <td>○</td>
         <td>●</td>
-        <td>○</td>
-        <td>○</td>
+        <td>●</td>
+        <td>●</td>
     </tr>
     <tr class="centered-table-text">
         <td>Point Cloud & Vision Fusion</td>
         <td>●</td>
         <td>●</td>
+        <td>○</td>
         <td>●</td>
-        <td>○</td>
-        <td>○</td>
+        <td>●</td>
+        <td>●</td>
     </tr>
     <tr class="centered-table-text">
         <td>Localization</td>
         <td>●</td>
         <td>●</td>
+        <td>○</td>
         <td>●</td>
-        <td>○</td>
-        <td>○</td>
+        <td>●</td>
+        <td>●</td>
     </tr>
     <tr class="centered-table-text">
         <td>SLAM</td>
         <td>●</td>
         <td>●</td>
+        <td>○</td>
         <td>●</td>
-        <td>○</td>
-        <td>○</td>
+        <td>●</td>
+        <td>●</td>
     </tr>
     <tr class="centered-table-text">
         <td>3D Gaussian Splatting</td>
         <td>●</td>
+        <td>○</td>
         <td>○</td>
         <td>○</td>
         <td>○</td>
@@ -117,25 +130,28 @@ These system images include the dependencies required for compiling and running 
         <td>Dense Depth Estimation</td>
         <td>●</td>
         <td>●</td>
-        <td>●</td>
         <td>○</td>
+        <td>●</td>
+        <td>●</td>
         <td>○</td>
     </tr>
     <tr class="centered-table-text">
         <td>Object Detection & Recognition</td>
         <td>●</td>
         <td>●</td>
+        <td>○</td>
         <td>●</td>
-        <td>○</td>
-        <td>○</td>
+        <td>●</td>
+        <td>●</td>
     </tr>
     <tr class="centered-table-text">
         <td>Semantic Segmentation</td>
         <td>●</td>
         <td>●</td>
+        <td>○</td>
         <td>●</td>
-        <td>○</td>
-        <td>○</td>
+        <td>●</td>
+        <td>●</td>
     </tr>
     <tr class="centered-table-text">
         <td colspan="2">System image/<br>SDK Environment Container <sup>2</sup> </td>
@@ -146,16 +162,21 @@ These system images include the dependencies required for compiling and running 
         </td>
         <td>
             <a href="https://github.com/RoboSense-Robotics/robosense_ac_ros2_sdk_infra/blob/main/tools/system_image/Radxa_Image_Readme.md">
-                System image
+                System image installation description
             </a>
         </td>
         <td>-</td>
         <td>
             <a href="https://github.com/RoboSense-Robotics/robosense_ac_ros2_sdk_infra/blob/main/tools/system_image/Orin_Nano_Image_Readme.md">
-                System image
+                System image installation description
             </a>
         </td>
         <td>-</td>
+        <td>
+            <a href="https://github.com/RoboSense-Robotics/robosense_ac_ros2_sdk_infra/blob/main/tools/system_image/RDK_X5_Image_Readme.md">
+                System image installation description
+            </a>
+        </td>
     </tr>
 </table>
 
