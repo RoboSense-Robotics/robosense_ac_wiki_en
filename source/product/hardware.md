@@ -58,7 +58,7 @@ These system images include the dependencies required for compiling and running 
         <td>Driver</td>
         <td>●</td>
         <td>●</td>
-        <td>○</td>
+        <td>●</td>
         <td>●</td>
         <td>●</td>
         <td>●</td>
@@ -67,7 +67,7 @@ These system images include the dependencies required for compiling and running 
         <td>Data Acquisition</td>
         <td>●</td>
         <td>●</td>
-        <td>○</td>
+        <td>●</td>
         <td>●</td>
         <td>●</td>
         <td>●</td>
@@ -76,7 +76,7 @@ These system images include the dependencies required for compiling and running 
         <td>Monitoring</td>
         <td>●</td>
         <td>●</td>
-        <td>○</td>
+        <td>●</td>
         <td>●</td>
         <td>●</td>
         <td>●</td>
@@ -85,7 +85,7 @@ These system images include the dependencies required for compiling and running 
         <td>Calibration</td>
         <td>●</td>
         <td>●</td>
-        <td>○</td>
+        <td>●</td>
         <td>●</td>
         <td>●</td>
         <td>●</td>
@@ -94,7 +94,7 @@ These system images include the dependencies required for compiling and running 
         <td>Point Cloud & Vision Fusion</td>
         <td>●</td>
         <td>●</td>
-        <td>○</td>
+        <td>●</td>
         <td>●</td>
         <td>●</td>
         <td>●</td>
@@ -103,7 +103,7 @@ These system images include the dependencies required for compiling and running 
         <td>Localization</td>
         <td>●</td>
         <td>●</td>
-        <td>○</td>
+        <td>●</td>
         <td>●</td>
         <td>●</td>
         <td>●</td>
@@ -112,7 +112,7 @@ These system images include the dependencies required for compiling and running 
         <td>SLAM</td>
         <td>●</td>
         <td>●</td>
-        <td>○</td>
+        <td>●</td>
         <td>●</td>
         <td>●</td>
         <td>●</td>
@@ -130,7 +130,7 @@ These system images include the dependencies required for compiling and running 
         <td>Dense Depth Estimation</td>
         <td>●</td>
         <td>●</td>
-        <td>○</td>
+        <td>●</td>
         <td>●</td>
         <td>●</td>
         <td>○</td>
@@ -139,7 +139,7 @@ These system images include the dependencies required for compiling and running 
         <td>Object Detection & Recognition</td>
         <td>●</td>
         <td>●</td>
-        <td>○</td>
+        <td>●</td>
         <td>●</td>
         <td>●</td>
         <td>●</td>
@@ -148,7 +148,7 @@ These system images include the dependencies required for compiling and running 
         <td>Semantic Segmentation</td>
         <td>●</td>
         <td>●</td>
-        <td>○</td>
+        <td>●</td>
         <td>●</td>
         <td>●</td>
         <td>●</td>
