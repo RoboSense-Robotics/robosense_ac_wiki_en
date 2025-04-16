@@ -20,7 +20,7 @@ These system images include the dependencies required for compiling and running 
         <td>-</td>
         <td>Rockchip RK3588</td>
         <td>Rockchip RK3588</td>
-        <td>Jetson Orin Nano 8GB module</td>
+        <td>Jetson Orin Nano<br>8GB module</td>
         <td>Jetson Orin</td>
         <td>Sunrise 5</td>
     </tr>
@@ -157,24 +157,24 @@ These system images include the dependencies required for compiling and running 
         <td colspan="2">System image/<br>SDK Environment Container <sup>2</sup> </td>
         <td>
             <a href="https://github.com/RoboSense-Robotics/ros2_ac_sdk_infra/tree/main/tools/cross_compilation">
-                SDK Environment Container
+                SDK Environment<br>Container
             </a>
         </td>
         <td>
             <a href="https://github.com/RoboSense-Robotics/robosense_ac_ros2_sdk_infra/blob/main/tools/system_image/Radxa_Image_Readme.md">
-                System image installation description
+                System image<br>installation description
             </a>
         </td>
         <td>-</td>
         <td>
             <a href="https://github.com/RoboSense-Robotics/robosense_ac_ros2_sdk_infra/blob/main/tools/system_image/Orin_Nano_Image_Readme.md">
-                System image installation description
+                System image<br>installation description
             </a>
         </td>
         <td>-</td>
         <td>
             <a href="https://github.com/RoboSense-Robotics/robosense_ac_ros2_sdk_infra/blob/main/tools/system_image/RDK_X5_Image_Readme.md">
-                System image installation description
+                System image<br>installation description
             </a>
         </td>
     </tr>
