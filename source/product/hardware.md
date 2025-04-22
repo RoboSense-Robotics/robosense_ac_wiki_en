@@ -44,12 +44,12 @@ These system images include the dependencies required for compiling and running 
     </tr>
     <tr class="centered-table-text">
         <td colspan="2">AI Computing Power</td>
-        <td>NVIDIA A40<br> (299.3 TOPS@INT8)</td>
-        <td>6 TOPS@INT8</td>
-        <td>6 TOPS@INT8</td>
-        <td>67 TOPS@INT8</td>
-        <td>275 TOPS@INT8</td>
-        <td>10 TOPS@INT8</td>
+        <td>NVIDIA A40<br> (299.3 TOPS@INT8 GPU)</td>
+        <td>6 TOPS@INT8 NPU</td>
+        <td>6 TOPS@INT8 NPU</td>
+        <td>67 TOPS@INT8 GPU</td>
+        <td>275 TOPS@INT8 GPU</td>
+        <td>10 TOPS@INT8 BPU</td>
     </tr>
     <tr class="centered-table-text">
         <td rowspan="12">Supported <br> SDKs <sup>1</sup> </td>
