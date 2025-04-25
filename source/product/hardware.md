@@ -123,7 +123,7 @@ These system images include the dependencies required for compiling and running 
         <td>○</td>
         <td>○</td>
         <td>○</td>
-        <td>○</td>
+        <td>●</td>
         <td>○</td>
     </tr>
     <tr class="centered-table-text">
