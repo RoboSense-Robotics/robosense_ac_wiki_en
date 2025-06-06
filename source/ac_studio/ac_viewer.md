@@ -3,14 +3,15 @@
 AC Viewer is a software designed specifically for Active Camera, which can be used to display real-time data (including point clouds, images, etc.) from all Active Cameras connected to the computer.  
 Through AC Viewer, users can easily view, record, and store sensor data for later use.
 
+
 **Hardware preparation:**
 - Active Camera x 1
 - power cable
 - data cable
 - PC x 1  
 
-**PC configuration:**
 
+**PC configuration:**
 <table class="docutils align-default" style="width: 100%;">
     <tbody>
         <tr class="row-even centered-table-text">
@@ -41,18 +42,19 @@ Through AC Viewer, users can easily view, record, and store sensor data for late
     </tbody>
 </table>
 
+
 **Supported Operating Systems:**
 - windows 10 x64   
 - Ubuntu 20.04 x64  
-- Mac OS 11 or higher M1/2/Intel
+
 
 **Physical connection:**
 ![图片alt](../image/output.png)  
 
 
 **Software download:**  
-- [AC Viewer 1.0.9 (64 bit) - Ubuntu 20.04](https://cdn.robosense.cn/AC_wiki/AcViewer_Linux_x86_64_release_1.0.9.deb)  
-- [AC Viewer 1.0.9 (64 bit) - windows 10](https://cdn.robosense.cn/AC_wiki/AcViewer_Win_x86_64_release_1.0.9.exe)
+- [AC Viewer 1.0.10 (64 bit) - Ubuntu 20.04](https://cdn.robosense.cn/ACViewer%20Release/AcViewer_Linux_x86_64_release_1.0.10.deb)  
+- [AC Viewer 1.0.10 (64 bit) - windows 10](https://cdn.robosense.cn/ACViewer%20Release/AcViewer_Win_x86_64_release_1.0.10.exe)
 - [More Historical Versions](https://github.com/RoboSense-Robotics/.github/blob/main/profile/acview_download_link.md)
 
 
