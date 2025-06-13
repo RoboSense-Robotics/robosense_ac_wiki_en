@@ -49,7 +49,7 @@ Through AC Viewer, users can easily view, record, and store sensor data for late
 
 
 **Physical connection:**
-![图片alt](../image/output.png)  
+![图片alt](../image/ac-view.png)  
 
 
 **Software download:**  
