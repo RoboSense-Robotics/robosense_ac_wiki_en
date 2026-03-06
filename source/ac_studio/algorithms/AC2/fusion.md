@@ -8,4 +8,6 @@ In the following video, the left image shows the raw image from the left camera 
     <iframe src="https://cdn.robosense.cn/AC_wiki/AC2_Fusion.mp4" allowfullscreen style="position:absolute; top:0; left:0; width:100%; height:100%;"></iframe>
 </div>
 
-🚀 Repository: [robosense_ac_postprocess](https://github.com/RoboSense-Robotics/robosense_ac_postprocess)
+The code used in this example is open-sourced. By following the instructions in the code documentation, developers can connect their own AC2 device to reproduce the same results.
+
+🚀 Source Code: [robosense_ac_postprocess](https://github.com/RoboSense-Robotics/robosense_ac_postprocess)

@@ -8,4 +8,6 @@ The video below shows the reconstruction and rendering results generated using o
     <iframe src="https://cdn.robosense.cn/AC_wiki/AC2_Reconstruction.mp4" allowfullscreen style="position:absolute; top:0; left:0; width:100%; height:100%;"></iframe>
 </div>
 
-🚀 Repository: [3D Reconstruction](https://github.com/RoboSense-Robotics/robosense_ac_2dgs)
+The code used in this example can be obtained from the following link.
+
+🚀 Source Code: [3D Reconstruction](https://github.com/RoboSense-Robotics/robosense_ac_2dgs)

@@ -9,4 +9,6 @@ The left image shows the raw image from AC2, the middle image shows the disparit
     <iframe src="https://cdn.robosense.cn/AC_wiki/AC2_Depth.mp4" allowfullscreen style="position:absolute; top:0; left:0; width:100%; height:100%;"></iframe>
 </div>
 
-🚀 Repository: [robosense_ac_depth](https://github.com/RoboSense-Robotics/robosense_ac_depth)
+The code used in this example has been released and can be obtained from the following link.
+
+🚀 Source Code: [robosense_ac_depth](https://github.com/RoboSense-Robotics/robosense_ac_depth)

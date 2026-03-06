@@ -9,4 +9,6 @@ The video below demonstrates the SLAM performance of an early AC2 engineering pr
     <iframe src="https://cdn.robosense.cn/AC_wiki/AC2_SLAM.mp4" allowfullscreen style="position:absolute; top:0; left:0; width:100%; height:100%;"></iframe>
 </div>
 
-🚀 Repository: [robosense_voxel_odom](https://github.com/RoboSense-Robotics/robosense_voxel_odom)
+We provide the AC2 adaptation code and default configuration files, enabling developers with an algorithm background to perform joint debugging and development on their own AC2 devices.
+
+🚀 Source Code: [robosense_voxel_odom](https://github.com/RoboSense-Robotics/robosense_voxel_odom)

@@ -8,4 +8,6 @@ The video not only shows the segmentation results on 2D images, but also combine
     <iframe src="https://cdn.robosense.cn/AC_wiki/AC2_Segmentation.mp4" allowfullscreen style="position:absolute; top:0; left:0; width:100%; height:100%;"></iframe>
 </div>
 
-🚀 Repository: [robosense_ac2_segmentation](https://github.com/RoboSense-Robotics/robosense_ac2_segmentation)
+The code used in the above example has been open-sourced.
+
+🚀 Source Code: [robosense_ac2_segmentation](https://github.com/RoboSense-Robotics/robosense_ac2_segmentation)
