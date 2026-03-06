@@ -15,4 +15,6 @@ During the actual execution (inference) phase of the demo, the high-precision co
 
 This case verifies the critical role of AC2 in supporting embodied large-model training and online inference, demonstrating the significant value of AC2 as a multimodal 3D perception sensor in enhancing embodied intelligence systems.
 
-<Video>
+<div style="margin-bottom: 24px; position:relative; width:100%; padding-top: 43.79%;" class="video-container">
+    <iframe src="https://cdn.robosense.cn/AC_wiki/AC2_Case1.mp4" allowfullscreen style="position:absolute; top:0; left:0; width:100%; height:100%;"></iframe>
+</div>
