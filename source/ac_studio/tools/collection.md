@@ -1,6 +1,7 @@
 # Collection
 
-Active Camera collection software package developed based on ros2, and through parameter configuration, it realizes the function of collecting data from different nodes.  
-The data format collected supports `.db3` and `.mcap` two formats according to different collection configurations.
+An AC sensor data collection toolkit developed based on ROS/ROS2, which enables data acquisition from different nodes through parameter configuration.
+In ROS, only the bag format is supported for data recording.
+In ROS2, both .db3 and .mcap formats are supported.
 
-Source Code: [AC1 ros/ros2 collect](https://github.com/RoboSense-Robotics/robosense_collect)
+Source Code: [ROS/ROS2 data collect for AC1 and AC2](https://github.com/RoboSense-Robotics/robosense_collect)

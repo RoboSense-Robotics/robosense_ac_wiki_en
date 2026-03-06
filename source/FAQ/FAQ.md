@@ -2,7 +2,9 @@
 
 If you have any suggestions and comments on this document, welcome to contact us on [RoboSense Github](https://github.com/RoboSense-Robotics) or send your questions to RoboSense official email <support@robosense.cn>
 
-## FAQ
+## AC1
+
+### FAQ
 
 Q: What are the advantages of the AC1 compared to the combination of RealSense and Mid360?
 
@@ -27,3 +29,5 @@ It can operate in environments up to 60°C, which covers most temperature condit
 It is resistant to a certain level of dust and water splashes, though it is not designed for full immersion in water or prolonged exposure to heavy rain.
 The IP54 rating effectively prevents construction site dust from entering the sensor, ensuring stable performance.
 While not fully waterproof, it is sufficiently protected against common splash scenarios, such as rainfall or water splashes during construction activities.
+
+## AC2

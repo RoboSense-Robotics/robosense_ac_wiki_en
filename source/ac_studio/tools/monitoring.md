@@ -1,7 +1,9 @@
 # Monitoring
 
-Monitor some metrics of interest in ros2, such as: memory/CPU/IO usage, message frame rate, the difference between message timestamp and current system time, etc.  
-The monitoring results will be output through logs and topics.  
-At the same time, the software package also provides a python script to generate visual reports from the monitoring result data, which can locally generate html format reports containing simple statistical results and line charts.
+This tool monitors key metrics in ROS/ROS2, such as memory/CPU/IO usage, message frame rate, and the time difference between message timestamps and the current system time.
 
-Source Code: [AC1 ros/ros2 monitor](https://github.com/RoboSense-Robotics/robosense_monitor)
+Monitoring results are output through logs and ROS topics.
+
+In addition, the software package provides a Python script that converts monitoring data into a visualized report, generating a local HTML report containing simple statistical results and charts.
+
+Source Code: [ROS/ROS2 monitor for AC1 and AC2](https://github.com/RoboSense-Robotics/robosense_monitor)

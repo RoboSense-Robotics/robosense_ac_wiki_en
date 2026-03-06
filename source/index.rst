@@ -8,7 +8,6 @@ Welcome to RoboSense !
     :numbered:
 
     product/sensor.md
-    product/hardware.md
 
 .. toctree::
     :maxdepth: 2
@@ -24,19 +23,11 @@ Welcome to RoboSense !
 
 .. toctree::
     :maxdepth: 0
-    :caption: RoboSense Dataset
-    :numbered:
-
-    .. data_set/target.md
-    .. data_set/identify.md
-
-.. toctree::
-    :maxdepth: 0
     :caption: Application Cases
     :numbered:
 
-    cases/humanoid_robot.md
-    cases/house_clean.md
+    cases/AC1.md
+    cases/AC2.md
 
 .. toctree::
     :maxdepth: 0
