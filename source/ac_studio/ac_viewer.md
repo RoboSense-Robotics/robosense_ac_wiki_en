@@ -188,7 +188,7 @@ After selecting the Skeleton module, the built-in human skeleton detection algor
 
 <div class="img-text-group" style="display: inline-block; width: 49%; vertical-align: top;">
 
-![](../image/AC2-skeleton-detection-3D.png)
+![](../image/AC2-skeleton-detection-3D.jpg)
 
 <p class="caption-text" style="text-align: center; font-size: 0.7em; color: #666;">3D Skeleton Result</p>
 
