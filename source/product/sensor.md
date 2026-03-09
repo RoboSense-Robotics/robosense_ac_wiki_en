@@ -36,7 +36,7 @@ This empowers developers to focus on high-value tasks and functional optimizatio
             <td>Laser Wavelength</td>
             <td>940nm</td>
             <td>Vertical FOV</td>
-            <td>60°</td>
+            <td>90°</td>
         </tr>
         <tr class="row-even centered-table-text">
             <td>Laser Safety Class</td>
@@ -46,14 +46,14 @@ This empowers developers to focus on high-value tasks and functional optimizatio
         </tr>
         <tr class="row-odd centered-table-text">
             <td>Ranging Capability</td>
-            <td>20m@10% Reflectivity</td>
+            <td>40m@10% Reflectivity</td>
             <td>Vertical Resolution</td>
         </tr>
         <tr class="row-even centered-table-text">
             <td>Blind Zone</td>
             <td>0.1m@90% Reflectivity</td>
             <td>Accuracy (Typical)</td>
-            <td>±3cm@1σ (Indoor)<br>±5cm@1σ (Outdoor)</td>
+            <td>±1 cm (0 ~ 5 m)<br>±3 cm (> 5 m)</td>
         </tr>
         <tr class="row-odd centered-table-text">
             <td>Points per Second</td>
@@ -126,7 +126,7 @@ This empowers developers to focus on high-value tasks and functional optimizatio
         </tr>
         <tr class="row-odd centered-table-text">
             <td>Dimensions</td>
-            <td>95mm*42.6mm*80mm</td>
+            <td>95mm*80mm*40mm (length * height * width)</td>
             <td></td>
             <td></td>
         </tr>
