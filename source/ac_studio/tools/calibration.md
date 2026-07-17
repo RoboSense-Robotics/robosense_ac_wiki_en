@@ -28,11 +28,14 @@ Source Code: [AC1 Camera Intrinsics Calibration code](https://github.com/RoboSen
 
 ## Camera to LiDAR Calibration
 The Active Camera has been calibrated from camera to LiDAR before leaving the factory. The following method is provided for developers to recalibrate when necessary.  
+
+![](../../image/camera-lidar-ext-calib.jpg)
+
 This module provides a camera-LiDAR calibration tool, reusing the calibration target from the camera intrinsic calibration to estimate the pose of the target for both the camera and the LiDAR separately, in order to provide the extrinsic parameters required by other modules.  
 During calibration, please ensure that the target is within the FOV of both the image and the point cloud, and try to keep the AC1 stable to avoid calibration errors due to sensor jitter.
 
 Video Data: [AC1 Camera to LiDAR Calibration data](https://cdn.robosense.cn/AC_wiki/camera_lidar_calib.zip)  
-Source Code: [AC1 Camera to LiDAR Calibration code](https://github.com/RoboSense-Robotics/robosense_calibration_extrinsic)
+Source Code: [AC1 Camera to LiDAR Calibration code](https://github.com/RoboSense-Robotics/robosense_ac_calibration)
 
 ## Camera to IMU Calibration
 The Active Camera has been calibrated from camera to IMU before leaving the factory.  
